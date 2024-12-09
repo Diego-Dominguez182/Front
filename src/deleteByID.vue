@@ -48,7 +48,8 @@ html, body {
   background-color: #1e1e2f;
   color: #f0f0f0; 
 }
-
+ 
+ 
 .delete-container {
   display: flex;
   flex-direction: column;
