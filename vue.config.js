@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
-  publicPath: 'Front',
+  publicPath: '/',
   configureWebpack: {
     plugins: [
       new webpack.ProgressPlugin(),
