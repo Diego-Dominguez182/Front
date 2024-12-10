@@ -14,6 +14,10 @@
   <div v-else>
     <p>No has iniciado sesión. Por favor, ingresa primero.</p>
   </div>
+
+      <div v-if="builds.length === 0 && searchQuery !== ''">
+      <p class="not-found">Sin builds</p>
+    </div>
 </template>
 
 <script>
@@ -59,7 +63,7 @@ methods: {
 
       this.builds = transformedBuilds; 
     } catch (error) {
-      alert("Hubo un problema al obtener las builds");
+      
       console.error(error);
     }
   },

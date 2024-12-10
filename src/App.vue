@@ -21,7 +21,6 @@
         <button @click="goTo('getBuilds')">Mostrar Builds</button>
         <button @click="goTo('crear')">Crear Build</button>
         <button @click="goTo('byID')">Buscar por nombre</button>
-        <button @click="goTo('byID')">Buscar por ID</button>
         <button @click="goTo('modificar')">Modificar Build</button>
         <button @click="goTo('eliminar')">Eliminar Build</button>
         <button @click="logout">Cerrar Sesión</button>
